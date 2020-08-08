@@ -1,0 +1,15 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows:100px 400px ;
+    grid-gap: 10px;
+}
+.contenedor .item1{
+    background-color: coral;
+    grid-column: 1/3;
+}
+.contenedor .item4{
+    background-color: black;
+    grid-column: 1/3;
+}
+
